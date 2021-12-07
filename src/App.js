@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 
 import { Header } from "./components/Header";
 import { Todos } from "./pages/Todos";
+import { AllTodos } from "./pages/AllTodos";
 import { Register } from "./pages/Register";
 import { Login } from "./pages/Login";
 
@@ -15,6 +16,7 @@ function App() {
 
       <Routes>
         <Route path="/todos" element={<Todos />} />
+        <Route path="/allTodos" element={<AllTodos />} />
         <Route path="/register" element={<Register />} />
         <Route path="/LogIn" element={<Login />} />
       </Routes>

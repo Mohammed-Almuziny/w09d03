@@ -34,11 +34,12 @@ export const Todos = () => {
 
   useEffect(() => {
     if (token) getTodos();
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
-    console.log(render);
     getTodos();
+    // eslint-disable-next-line
   }, [render]);
 
   return user ? (

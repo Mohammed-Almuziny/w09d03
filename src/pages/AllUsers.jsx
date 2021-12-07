@@ -33,10 +33,12 @@ export const AllUsers = () => {
 
   useEffect(() => {
     if (token) getTodos();
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
     getTodos();
+    // eslint-disable-next-line
   }, [render]);
 
   return (

@@ -27,7 +27,6 @@ export const Login = ({ setUser, setRole, setToken }) => {
       axios
         .post(`${process.env.REACT_APP_BASE_URL}/login`, { email, password })
         .then((response) => {
-
           const data = {
             user: response.data.result.email,
             role: response.data.result.role.role,

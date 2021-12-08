@@ -50,6 +50,10 @@
 - Users reducer
   - setUsers(usersList)
 
+### UML Diagrams
+
+ <img src="./public/UML.png" alt="UML Diagram" style="zoom:75%;" />
+
 ## GitHub Link
 
 [repository Link](https://github.com/Mohammed-Almuziny/w09d03)
